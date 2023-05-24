@@ -1,0 +1,35 @@
+/* .main {
+    background-image: linear-gradient(90deg, rgb(199, 104, 237), rgb(112, 17, 136));
+} */
+
+.navbar__list-spaced {
+    
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar__list_item {
+    list-style-type: none;
+}
+
+.main__profile_pic > img{
+    height: 200px;
+    width: 175px;
+}
+
+.centered {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact_form {
+    position: relative;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.cf_fieldset {
+    text-align: center;
+}

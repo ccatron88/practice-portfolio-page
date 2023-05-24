@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+
+        <link rel="stylesheet" href="../main.css" />
+    </head>
+    <body>
+        <div class="main">
+            <div class="main__navbar centered">
+                <ul class="navbar__list-spaced">
+                    <li class="navbar__list_item"><a href="#">Home</a></li>
+                    <li class="navbar__list_item"><a href="./contact.html">Contact</a></li>
+                    <li class="navbar__list_item"><a href="#">Page 3</a></li>
+                    <li class="navbar__list_item"><a href="#">Page 4</a></li>
+                </ul>
+            </div>
+
+            <form action="/form-handling-url" method="post" class="contact_form">
+                <fieldset class="cf_fieldset">
+                    <legend>Contact</legend>
+                    
+                    
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="first_name">
+                    </div>
+            
+                    <div>
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="last_name">
+                    </div>
+            
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email_address">
+                    </div>
+
+                    <div>
+                        <label for="messageContent">Message</label>
+                        <textarea id="messageContent" name="message_content"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="saveInfo" name="save_info">
+                        <label for="saveInfo">Save information for later</label>
+                    </div>
+
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+            
+                </fieldset>
+            </form>
+        </div>
+        
+    </body>
+</html>
